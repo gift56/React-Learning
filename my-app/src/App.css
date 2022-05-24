@@ -1,8 +1,11 @@
 .App {
   text-align: center;
 }
-.background {
-  background-color: red;
+.light {
+  background-color: #fff;
+  color: black;
+}
+.dark {
+  background-color: black;
   color: white;
-  padding: 12px;
 }
