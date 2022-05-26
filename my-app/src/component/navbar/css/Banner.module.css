@@ -1,0 +1,33 @@
+.bannerSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #fefefe;
+    padding: 0 40px;
+    min-height: 100vh;
+}
+.bannerText {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.bannerText h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: black;
+}
+.bannerText p {
+    text-align: justify;
+    padding: 0 59px 0 0;
+}
+.imgsec {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.imgsec img {
+    flex-basis: 60%;
+}
