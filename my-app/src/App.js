@@ -1,10 +1,12 @@
 import './App.css';
-import Count from './component/Count';
+import Navbar from './component/navbar/Navbar';
+import Banner from './component/navbar/Banner';
 
 function App() {
   return (
     <div className="App">
-      <Count />
+      <Navbar />
+      <Banner />
     </div>
   );
 }
