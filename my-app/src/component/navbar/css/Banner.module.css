@@ -17,10 +17,25 @@
     font-size: 42px;
     font-weight: 800;
     color: black;
+    margin-bottom: 20px;
 }
 .bannerText p {
+    font-size: 20px;
     text-align: justify;
-    padding: 0 59px 0 0;
+}
+.bannerText button {
+    background-color: gold;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 18px 50px;
+    border: 2px solid gold;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+}
+.bannerText button:hover {
+    background-color: #ffd90070;
+    color: black;
 }
 .imgsec {
     width: 90%;

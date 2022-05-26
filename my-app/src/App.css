@@ -1,19 +1,6 @@
-.App {
-  text-align: center;
-}
-.light {
-  background-color: #fff;
-  color: black;
-}
-.dark {
-  background-color: black;
-  color: white;
-}
-.green {
-  background-color: green;
-  color: yellow;
-}
-.red {
-  background-color: red;
-  color: white;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }

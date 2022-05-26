@@ -10,6 +10,7 @@ const Banner = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quod, qui, assumenda quae voluptatum inventore est totam amet dolor provident accusantium necessitatibus veniam sit distinctio, cumque quasi neque aperiam porro ea. Incidunt repudiandae nulla explicabo odit atque quibusdam eveniet qui aliquam, quis et vero voluptates odio eaque recusandae quae natus.
                 </p>
+                <button>Get Started</button>
             </div>
             <div className={bannerStyle.imgsec}>
                 <img src={codingImg} alt="coding" />
