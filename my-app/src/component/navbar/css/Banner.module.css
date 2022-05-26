@@ -46,3 +46,22 @@
 .imgsec img {
     flex-basis: 60%;
 }
+@media screen and (max-width: 991px) {
+    .bannerSec {
+        flex-direction: column;
+    }
+    .bannerText {
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgsec {
+        margin-top: 6vh;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 655px) {
+    .imgsec {
+        display: none;
+    }
+}

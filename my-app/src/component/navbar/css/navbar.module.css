@@ -33,3 +33,8 @@
 .links a:hover {
     border-bottom: 2px solid #050546;
 }
+@media screen and (max-width: 815px) {
+    .links {
+        display: none;
+    }
+}
