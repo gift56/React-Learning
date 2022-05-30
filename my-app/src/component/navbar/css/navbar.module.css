@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,6 @@
     align-items: center;
     padding: 15px 10px;
     position: relative;
-    
 }
 .links a {
     text-decoration: none;
@@ -67,5 +66,7 @@
     }
     .ham {
         display: flex !important;
+        font-size: 25px;
     }
-}
+    
+} */

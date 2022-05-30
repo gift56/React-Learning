@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import style from './css/navbar.module.css';
-
+// import React, { useState } from "react";
+// import { FaBars, FaTimes } from "react-icons/fa";
+// import style from './css/navbar.module.css';
+/*
 const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
 
@@ -28,4 +28,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Navbar;*/
