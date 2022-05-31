@@ -1,4 +1,4 @@
-/* .bannerSec {
+.bannerSec {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +64,4 @@
     .imgsec {
         display: none;
     }
-} */
+}
