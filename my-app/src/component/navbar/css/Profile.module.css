@@ -1,0 +1,14 @@
+.container {
+    background-color: gold;
+    padding: 0 40px;
+}
+.container h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
