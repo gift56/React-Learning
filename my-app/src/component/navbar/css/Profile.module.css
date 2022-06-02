@@ -19,8 +19,22 @@
     border-radius: 12px;
     line-height: 28px;
 }
-.card img{
+.card img {
     width: 60%;
     border-radius: 100%;
     margin: 10px 0;
+}
+.card button {
+    background-color: gold;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid gold;
+    padding: 18px 40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.myCard{
+    display: flex;
+    justify-content: space-between;
 }

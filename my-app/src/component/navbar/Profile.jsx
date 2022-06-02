@@ -15,6 +15,7 @@ const Profile = () => {
             .then(res => res.json())
             .then((data) => {
                 setPerson(data.results[0]);
+                console.log(data)
             })
             .catch(err => { console.log(err) })
     }
@@ -22,9 +23,23 @@ const Profile = () => {
     return (
         <div className={style.container}>
             <h1>Profile Generator</h1>
-            <div>
+            <div className={style.myCard}>
                 <div className={style.card}>
-                    <img src={person?.picture.medium} alt="" />
+                    <img src={person?.picture.large} alt="" />
+                    <h3>{`${person?.name.title}. ${person?.name.first} ${person?.name.last}`}</h3>
+                    <h3>Email: {person?.email}</h3>
+                    <p>Gender: {person?.gender}</p>
+                    <button onClick={() => fetchingData(url)}>Get New User</button>
+                </div>
+                <div className={style.card}>
+                    <img src={person?.picture.large} alt="" />
+                    <h3>{`${person?.name.title}. ${person?.name.first} ${person?.name.last}`}</h3>
+                    <h3>Email: {person?.email}</h3>
+                    <p>Gender: {person?.gender}</p>
+                    <button onClick={() => fetchingData(url)}>Get New User</button>
+                </div>
+                <div className={style.card}>
+                    <img src={person?.picture.large} alt="" />
                     <h3>{`${person?.name.title}. ${person?.name.first} ${person?.name.last}`}</h3>
                     <h3>Email: {person?.email}</h3>
                     <p>Gender: {person?.gender}</p>
