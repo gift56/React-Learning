@@ -21,6 +21,15 @@ const Profile = () => {
     return (
         <div>
             <h1>Profile Generator</h1>
+            <div>
+                <h3>{`${person?.name.title}. ${person?.name.first} ${person?.name.last}`}</h3>
+                <h3>Email: {person?.email}</h3>
+                <p>Gender: {person?.gender}</p>
+                <div>
+                    <img src={person?.picture.medium} alt="" />
+                    <button onClick={() => fetchingData(url)}>Get New User</button>
+                </div>
+            </div>
         </div>
     )
 }
