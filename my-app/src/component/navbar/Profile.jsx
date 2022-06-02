@@ -6,8 +6,17 @@ const Profile = () => {
     const [person, setPerson] = useState(null);
 
     useEffect(() => {
-        fetch(url).then(res => res.json()).then(data => { console.log(data) }).catch(err => { console.log(err) })
+        fetchingData(url);
     }, []);
+
+    const fetchingData = (url) => {
+        fetch(url)
+            .then(res => res.json())
+            .then((data) => {
+                setPerson(data.results[0]);
+            })
+            .catch(err => { console.log(err) })
+    }
 
     return (
         <div>
