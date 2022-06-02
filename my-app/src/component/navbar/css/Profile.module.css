@@ -1,6 +1,7 @@
 .container {
     background-color: gold;
-    padding: 0 40px;
+    color: white;
+    padding: 18px 40px;
 }
 .container h1 {
     text-align: center;
@@ -11,4 +12,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    width: 390px;
+    border-radius: 12px;
+    line-height: 28px;
+}
+.card img{
+    width: 60%;
+    border-radius: 100%;
+    margin: 10px 0;
 }
