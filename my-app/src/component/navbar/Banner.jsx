@@ -1,6 +1,6 @@
 import React from 'react';
 import bannerStyle from './css/Banner.module.css';
-import codingImg from './img/codingbreast.png';
+import avatar from './img/codingbreast.png';
 
 const Banner = () => {
     return (
@@ -13,7 +13,7 @@ const Banner = () => {
                 <button>Get Started</button>
             </div>
             <div className={bannerStyle.imgsec}>
-                <img src={codingImg} alt="coding" />
+                <img src={avatar} alt="coding" />
             </div>
         </section>
     )
