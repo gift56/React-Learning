@@ -21,7 +21,7 @@
     cursor: pointer;
     border-left: 4px solid #050546;
 }
-.links {
+.showme {
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -29,14 +29,14 @@
     padding: 15px 10px;
     position: relative;
 }
-.links a {
+.showme a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
     color: #fff;
     padding-bottom: 12px;
 }
-.links a:hover {
+.showme a:hover {
     border-bottom: 2px solid #050546;
 }
 @media screen and (max-width: 816px) {
