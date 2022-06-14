@@ -40,7 +40,7 @@
     border-bottom: 2px solid #050546;
 }
 @media screen and (max-width: 816px) {
-    .links {
+    .showme {
         display: none;
     }
     .show {

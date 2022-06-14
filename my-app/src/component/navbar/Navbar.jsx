@@ -17,7 +17,7 @@ const Navbar = () => {
             <span className={style.ham} onClick={handleMobileMenu}>
                 {isMobile ? <FaTimes /> : <FaBars />}
             </span>
-            <div className={` ${isMobile ? style.show : style.links}`}>
+            <div className={` ${isMobile ? style.show : style.showme}`}>
                 <a href="#Home">Home</a>
                 <a href="#About">About</a>
                 <a href="#Service">Service</a>
