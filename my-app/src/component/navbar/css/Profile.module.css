@@ -9,6 +9,7 @@
 }
 .card {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,5 +37,7 @@
 }
 .myCard{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
