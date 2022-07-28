@@ -1,12 +1,15 @@
 import React from 'react';
+import { CgSun } from 'react-icons/cg';
+import { HiMoon } from 'react-icons/hi';
+import styled from 'styled-components';
 
 
 const Darkmood = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+            Dark area
+        </div>
+    )
 }
 
 export default Darkmood
