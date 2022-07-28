@@ -4,16 +4,16 @@ import { HiMoon } from 'react-icons/hi';
 import styled from 'styled-components';
 
 
-const Darkmood = ({ theme, setTheme }) => {
+const Darkmood = (props) => {
     const changeTheme = () => {
-        if (theme === 'light') {
-            setTheme('dark')
+        if (props.theme === 'light') {
+            props.setTheme('dark')
         }
         else {
-            setTheme('light')
+            props.setTheme('light')
         }
     }
-    const icon = theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
+    const icon = props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
     return (
         <Page>
             <Container>
@@ -35,7 +35,7 @@ const Page = styled.div`
       align-items: center;
       min-height: 100vh;
       width: 100%;
-      background-color: ${theme => theme.pageBackground};
+      background-color: ${props => props.theme.pageBackground};
       transition: 300ms ease;
 `
 
@@ -46,9 +46,23 @@ const Container = styled.div`
 `
 
 const Title = styled.h1`
-     color: ${theme => theme.titleColor};
+     color: ${props => props.theme.titleColor};
      transition: 300ms ease;
-     
 `
-const TagLine = styled.span``
-const Toggle = styled.span``
+const TagLine = styled.span`
+     color: ${props => props.theme.tagLineText};
+     transition: 300ms ease;
+     font-size: 18px;
+`
+const Toggle = styled.span`
+        background: ${props => props.theme.titleColor};
+        color: ${props => props.theme.pageBackground};
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        transition: 300ms ease;
+        cursor: pointer;
+`

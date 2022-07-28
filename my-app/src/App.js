@@ -28,7 +28,7 @@ function App() {
   return (
     <ThemeProvider theme={themes[theme]}>
       <Navbar />
-      <Banner />
+      <Banner theme={theme} setTheme={setTheme}/>
       <Profile />
       <Darkmood theme={theme} setTheme={setTheme} />
     </ThemeProvider>
